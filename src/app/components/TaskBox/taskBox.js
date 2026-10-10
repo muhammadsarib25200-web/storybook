@@ -6,7 +6,7 @@
 import { useState } from "react";
 import "./taskBox.css";
 
-export default function Taskbox({tasks}) {
+export default function Taskbox({tasks =[]}) {
   const [selectedTask, setSelectedTask] = useState(null);
   const [completedTasks, setCompletedTasks] = useState([]);
 

@@ -57,7 +57,9 @@
      * See also: dangerouslyAllowAllScripts to allow all scripts (not recommended).
      * This is a security-sensitive setting: enabling scripts may allow arbitrary code execution during install.
      **/
-    "allowScripts": {},
+    "allowScripts": {
+      "esbuild": true
+    },
     "rootComponents": true,
     "policy": {
       "dependencies": {},
