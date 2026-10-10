@@ -1,0 +1,30 @@
+.taskbox {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.taskbox h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.task input {
+  width: 18px;
+  height: 18px;
+}
+
+.task span {
+  font-size: 16px;
+}
